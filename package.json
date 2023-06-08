@@ -1,12 +1,17 @@
 {
   "name": "express-router-lib",
-  "version": "1.0.0",
-  "description": "",
+  "version": "0.0.1",
+  "description": "HTTP Router Library like Express Router",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "express",
+    "http",
+    "router"
+  ],
+  "author": "Abraham Agiri, Jr. (codeekage)",
   "license": "ISC"
 }
