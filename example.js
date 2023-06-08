@@ -2,7 +2,7 @@ const Router = require('./lib');
 
 const router = Router();
 
-router.use('*', (req, res) => {
+router.use((req, _res) => {
   req.user = 1;
 });
 router.get('/master/:id/clean/:reference/:loving', (req, res) => {
